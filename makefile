@@ -23,7 +23,7 @@
 #
 # ------------------------------------------------------------------------------
 
-PROGRAM_NAME=project2
+PROGRAM_NAME=project3
 
 .PHONY: all clean see
 
@@ -31,16 +31,16 @@ PROGRAM_NAME=project2
 # Compile and link ...
 #
 
-all: Polynomial.hpp
+all: Account.hpp Database.hpp
 
 	reset
 	@echo
 	@echo
 	g++ -c -o driver.o driver.cpp -c -fabi-version=6 -frepo -O -pedantic -std=c++11 -Wall -Wextra
-	g++ -c -o Polynomial.o Polynomial.cpp -c -fabi-version=6 -frepo -O -pedantic -std=c++11 -Wall -Wextra
+	g++ -c -o Account.o Account.cpp -c -fabi-version=6 -frepo -O -pedantic -std=c++11 -Wall -Wextra
 	@echo
 	@echo
-	g++ driver.o Polynomial.o -L /usr/local/lib -o ${PROGRAM_NAME}
+	g++ driver.o Account.o Database.o -L /usr/local/lib -o ${PROGRAM_NAME}
 	@echo
 	@echo
 
