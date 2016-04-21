@@ -23,21 +23,13 @@ PROGRAM REQUIREMENTS
 --------------------
 
 - [x] You must use a hierarchical class [ meaning class inhertance ] design for this program.
-
 - [ ] Your design must include at least one pure abstract base class.
-
 - [ ] When you are finished developing the program, test it.
-
 - [ ] Document your program and tests in a write-up for the program, make it an MS-Word document.
-
 - [ ] Document your tests by taking screenshots (Ctrl PrintScreen) and paste those into the write-up MS-Word document.
-
 - [ ] When making your Word doc, include a sentence for each screenshot that tells what is going on in it:  what the test was, what the result was, etc.
-
 - [ ] Your Word doc should include screenshots for testing every function you implement, along with associated verbiage.
-
 - [ ] Copy your MS-Word document and your Linux make file to the same folder that the .CPP source file resides in.
-
 - [ ] When you are ready to submit to Canvas, you need to zip up the entire folder structure and upload the resulting .zip file to the drop box.
 
 -----------------------------------
@@ -45,17 +37,11 @@ CODING CONVENTIONS and RESTRICTIONS
 -----------------------------------
 
 - [ ] Each file shall have a file header.
-
 - [ ] Each function shall have a function header.
-
 - [ ] Your code shall be properly indented and commented.
-
 - [ ] Global variables cannot be used.
-
 - [ ] Global constants can be used, and must be all-uppercase names, with words separated by underscores.
-
 - [ ] The main() function must act as the executive for the program, no detailed logic can appear in main().
-
 - [ ] The main() function cannot act as a "wrapper function" for a function that contains all or most of the program's detailed logic.  If you don't know what this means, ask your teacher to explain it.
 
 Grading for submitted code will take into account violations of the above.
@@ -65,24 +51,16 @@ GENERAL PROJECT REQUIREMENTS
 ----------------------------
 
 - [ ] The program must incorporate certain language features, as described below.
-
 - [ ] The program you write must be an object-oriented program, using classes designed by you.
-
 - [ ] The program must use three (3) of the following STL classes:
-
     linked list [ Chapter 17 ]
     queue       [ Chapter 18 ]
     stack       [ Chapter 18 ]
     vector      [ Chapter 7, Section 7.11 and Chapter 16, Section 16.5 ]
-
 - [ ] Error detection and error recovery shall be a part of the program.  For example, if an output file cannot be opened, the user should be notified.
-
 - [ ] You are required to use the try-catch error handling method of Chapter 16 in your program.
-
 - [ ] Programs submitted as part of a project must build [ an executable ] on the Linux server.
-
 - [ ] Programs submitted as part of a project must satisfy the requirments of the project.
-
 - [ ] The student need not present the project to the class, but in the write-up the student must discuss the project's requirements and how the program satisfies them, giving sample runs for the program, discuss the project's makefile, and discuss the program's shortcomings and known bugs.
 
 -------------------------
