@@ -1,0 +1,8 @@
+{
+  "execPath": "g++",
+  "gccDefaultCFlags": "-c -Wall",
+  "gccDefaultCppFlags": "-c -Wall -std=c++11",
+  "gccErrorLimit": 15,
+  "gccIncludePaths": "./Project3",
+  "gccSuppressWarnings": true
+}
