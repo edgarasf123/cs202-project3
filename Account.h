@@ -16,9 +16,7 @@ Edgaras Fiodorovas      2016-03-18         1.0
 
 ----------------------------------------------------------------------------- */
 
-#define _CRT_SECURE_NO_WARNINGS
-#ifndef ACCOUNT_H
-#define ACCOUNT_H
+#pragma once
 
 #include <cstring>
 #include <iostream>
@@ -58,4 +56,3 @@ class Account {
 	friend std::ostream& operator<< (std::ostream&, const Account&);
 	friend std::istream& operator>> (std::istream&, Account&);
 };
-#endif
