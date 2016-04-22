@@ -53,15 +53,10 @@ GENERAL PROJECT REQUIREMENTS
 - [ ] The program must incorporate certain language features, as described below.
 - [ ] The program you write must be an object-oriented program, using classes designed by you.
 - [ ] The program must use three (3) of the following STL classes:
-
-    linked list [ Chapter 17 ]
-
-    queue       [ Chapter 18 ]
-
-    stack       [ Chapter 18 ]
-
-    vector      [ Chapter 7, Section 7.11 and Chapter 16, Section 16.5 ]    
-
+-    linked list [ Chapter 17 ]
+-    queue       [ Chapter 18 ]
+-    stack       [ Chapter 18 ]
+-    vector      [ Chapter 7, Section 7.11 and Chapter 16, Section 16.5 ]    
 - [ ] Error detection and error recovery shall be a part of the program.  For example, if an output file cannot be opened, the user should be notified.
 - [ ] You are required to use the try-catch error handling method of Chapter 16 in your program.
 - [ ] Programs submitted as part of a project must build [ an executable ] on the Linux server.
